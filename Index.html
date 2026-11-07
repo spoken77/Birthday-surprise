@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday My Bestie ❤️</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: #fff8fb;
+    color: #493044;
+    text-align: center;
+}
+
+.hero {
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f8d7e8, #eee2ff, #fff0e8);
+}
+
+.tag {
+    font-family: Arial, sans-serif;
+    letter-spacing: 4px;
+    font-size: 12px;
+    color: #8e527c;
+    margin-bottom: 20px;
+}
+
+.heart {
+    font-size: 65px;
+    animation: heartbeat 1.2s infinite;
+}
+
+h1 {
+    font-size: clamp(42px, 8vw, 76px);
+    color: #9b477d;
+    margin: 20px 0;
+}
+
+.subtitle {
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: #76516f;
+}
+
+button {
+    margin-top: 35px;
+    padding: 16px 34px;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(135deg, #a84d91, #7546a8);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px #a84d9140;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 75px 20px;
+}
+
+h2 {
+    color: #984b80;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.message {
+    max-width: 680px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.memory {
+    background: #f9edf6;
+}
+
+.surprise {
+    margin-top: 25px;
+    font-size: 21px;
+    color: #984b80;
+    line-height: 1.8;
+}
+
+footer {
+    padding: 30px 15px;
+    background: #ead8e9;
+    font-size: 14px;
+}
+
+@keyframes heartbeat {
+    50% { transform: scale(1.2); }
+}
+
+@media(max-width: 600px) {
+    section { padding: 55px 20px; }
+    h2 { font-size: 27px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <div class="heart">❤️</div>
+
+    <p class="tag">A CELEBRATION OF FRIENDSHIP</p>
+
+    <h1>Happy Birthday<br>My Bestie!</h1>
+
+    <p class="subtitle">18 Years of Love, Laughter & Memories</p>
+
+    <button onclick="showSurprise()">
+        Open Your Surprise ✨
+    </button>
+
+    <p id="surprise" class="surprise"></p>
+</div>
+
+<section>
+    <h2>18 Years of Friendship 💕</h2>
+
+    <div class="message">
+        Some people come into our lives and make
+        every moment more beautiful.
+
+        <br><br>
+
+        Eighteen years of friendship, countless memories,
+        endless laughter and a bond that means so much.
+
+        <br><br>
+
+        I am truly blessed to have you in my life.
+        Thank you for being my happiness, my support
+        and my forever bestie.
+
+        <br><br>
+
+        May your dreams come true and may your life
+        always be filled with love, joy and success.
+    </div>
+</section>
+
+<section class="memory">
+    <h2>Our Bond, Forever ❤️</h2>
+
+    <p class="message">
+        Distance may change places,
+        time may change moments,
+        but true friendship never changes.
+
+        <br><br>
+
+        No matter what happens,
+        you will always have a special place in my heart.
+        
+        <br><br>
+
+        Happy Birthday, My Bestie! 🥰
+    </p>
+</section>
+
+<footer>
+    Made with ❤️ and lots of love for My Bestie
+    <br><br>
+    18 Years of Friendship | Forever & Always
+</footer>
+
+<script>
+function showSurprise() {
+    document.getElementById("surprise").innerHTML =
+    "You are not just my best friend, you are a beautiful part of my life! ❤️🥰";
+}
+</script>
+
+</body>
+</html>
